@@ -1,0 +1,9 @@
+<div>
+    <input type="text" [(ngModel)]= "search">
+    <div *ngFor= "let name of names|filter:search">
+        {{ name  }}
+        </div>
+</div>
+    
+
+    
